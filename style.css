@@ -1231,9 +1231,25 @@ footer .footer-b{
         width: 450px;
     }
 
-    .sec-4 .canvas-wrap .inner .content {
-        /* height: 400px; */
+    
+    /* 섹션 4 */
+    .sec-4 .canvas-wrap .inner {
+        height: 370px;
     }
+
+    .sec-4 .canvas-wrap .inner .content {
+        height: 370px;
+    }
+
+    .canvas-wrap .inner .con-1-img {
+        display: block;
+    }
+
+    .canvas-wrap .item-name {
+        display: block;
+    }
+
+
 }
 
 

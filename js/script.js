@@ -73,10 +73,10 @@ $(document).ready(function(){
   /// 선생님 수정본///
   function layout(){
     var ww = $(window).width();
+    swiper.updateContainerSize();`xx`
 
     // --> 안굴러감.
     if(ww >= 1140){
-
       var swiper = new Swiper(".secondSwiper",{
         direction: "vertical",
         slidesPerView:1,
@@ -93,8 +93,7 @@ $(document).ready(function(){
           clickable: true,
         },
       });
-      swiper.update();
-
+  
       // $('.main-menu li').mouseenter(function(){
       //   let result = $(this).attr('data-alt');
       //   $('.sub-menu').removeClass('active');
@@ -111,10 +110,7 @@ $(document).ready(function(){
 
 
     } else{
-      console.log('layout');
       $('.hamburger').click(function(){
-        console.log('hi');
-
         $(this).toggleClass('active');
         $('.main-menu').toggleClass('active');
         $('.hamburger span:first-child').toggleClass('active');
